@@ -1,0 +1,15 @@
+interface: 192.168.85.128
+auto_accept: True
+file_roots:
+    base:
+        - /home/salt-hadoop/salt/base
+    prod:
+        - /home/salt-hadoop/salt/prod
+pillar_roots:
+    base:
+        - /home/salt-hadoop/pillar/base
+    prod:
+        - /home/salt-hadoop/pillar/prod
+
+nodegroups:
+    had_server: 'L@d721,d722,d723'
